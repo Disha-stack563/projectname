@@ -1,0 +1,158 @@
+import React from "react"
+
+const Data={
+cars:[
+    {
+id:1,
+Image:require('../assets/images/carblack.jpg'),
+name:"Honda(20)"
+},
+   {
+id:2,
+Image:require('../assets/images/carblue.jpg'),
+name:"Mazda(12)"
+},
+   {
+id:3,
+Image:require('../assets/images/cargreen.jpg'),
+name:"Hyundai(08)"
+},
+   {
+id:4,
+Image:require('../assets/images/carred.jpg'),
+name:"Tata(07)"
+},
+
+],
+car:[
+    {
+id:1,
+Image1:require('../assets/icons/likee.png'),
+Image:require('../assets/images/carblack.jpg'),
+name:"Honda(20)"
+},
+ 
+   {
+id:2,
+Image1:require('../assets/icons/likee.png'),
+Image:require('../assets/images/cargreen.jpg'),
+name:"Hyundai(08)"
+},
+   {
+id:3,
+Image1:require('../assets/icons/likee.png'),
+Image:require('../assets/images/carred.jpg'),
+name:"Tata(07)"
+},
+  {
+id:4,
+Image1:require('../assets/icons/likee.png'),
+Image:require('../assets/images/carblue.jpg'),
+name:"Mazda(12)"
+},
+
+],
+explore:[
+    {
+id:1,
+Image:require('../assets/images/bmw.jpg'),
+name:"BMW"
+},
+   {
+id:2,
+Image:require('../assets/images/honda.jpg'),
+name:"Honda"
+},
+   {
+id:3,
+Image:require('../assets/images/hyundai.jpg'),
+name:"Hyundai"
+},
+   {
+id:4,
+Image:require('../assets/images/Jaguar.jpg'),
+name:"Jaguar"
+},
+ {
+id:5,
+Image:require('../assets/images/mazda.jpg'),
+name:"Mazda"
+},
+{
+id:6,
+Image:require('../assets/images/nissan.jpg'),
+name:"Nissan"
+},
+{
+id:7,
+Image:require('../assets/images/renault.jpg'),
+name:"Renault"
+},
+{
+id:8,
+Image:require('../assets/images/chevrolet.jpg'),
+name:"Chevrolet"
+},
+
+],
+list:[
+    {
+id:1,
+Image:require('../assets/images/bmw.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"BMW",
+price:"$30,980"
+},
+   {
+id:2,
+Image:require('../assets/images/honda.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Honda",
+price:"$30,980"
+},
+   {
+id:3,
+Image:require('../assets/images/hyundai.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Hyundai",
+price:"$30,980"
+},
+   {
+id:4,
+Image:require('../assets/images/Jaguar.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Jaguar",
+price:"$30,980"
+},
+ {
+id:5,
+Image:require('../assets/images/mazda.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Mazda",
+price:"$30,980"
+},
+{
+id:6,
+Image:require('../assets/images/nissan.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Nissan",
+price:"$30,980"
+},
+{
+id:7,
+Image:require('../assets/images/renault.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Renault",
+price:"$30,980"
+},
+{
+id:8,
+Image:require('../assets/images/chevrolet.jpg'),
+Image1:require('../assets/icons/likee.png'),
+name:"Chevrolet",
+price:"$30,980"
+},
+
+],
+}
+export default Data

@@ -1,0 +1,77 @@
+import { Image } from "react-native"
+
+const Data={
+datatype:[
+{
+    id:1,
+    Image:require("../assets/images/fire.png")
+},
+{
+    id:2,
+    Image:require("../assets/images/search.png")
+},
+{
+    id:3,
+    Image:require("../assets/images/reception.png")
+},
+{
+    id:4,
+    Image:require("../assets/images/home.png")
+},
+{
+    id:5,
+    Image:require("../assets/images/box.png")
+},
+],
+datatype2:[
+    {
+        id:1,
+name:"All",
+Image:require("../assets/icons/reception.png")
+    },
+     {
+        id:2,
+name:"Burger",
+Image:require("../assets/icons/burger.png")
+    },
+     {
+        id:3,
+name:"Sushi",
+Image:require("../assets/icons/tako.png")
+    }
+],
+datatype3:[
+    {
+        id:1,
+        Image:require("../assets/images/burgerking.jpg")
+    },
+    {
+        id:1,
+        Image:require("../assets/images/kfc.jpg")
+    },
+     {
+        id:1,
+        Image:require("../assets/images/dominos.jpg")
+    },
+     {
+        id:1,
+        Image:require("../assets/images/mc.jpg")
+    },
+],
+datatype4:[
+    {
+        id:1,
+        Image:require("../assets/images/coco.jpg")
+    },
+    {
+        id:1,
+        Image:require("../assets/images/burger4.jpg")
+    },
+     {
+        id:1,
+        Image:require("../assets/images/fries.jpg")
+    },
+   
+],
+}
+export default Data
